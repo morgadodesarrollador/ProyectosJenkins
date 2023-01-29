@@ -1,7 +1,7 @@
 // import jenkins-auto-approve-script.groovy
 
 job('Job-pTienda') {
-    description('Job Padre para crear una tarea hija que despliegue el propyecto Tienda')
+    description('Job Padre para crear una tarea Hija que despliegue el propyecto Tienda')
 
 
 
