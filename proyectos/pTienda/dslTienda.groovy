@@ -1,7 +1,7 @@
 // import jenkins-auto-approve-script.groovy
 
 job('Job-pTienda') {
-    description('Job Padre para crear una tarea Hija que despliegue la App Tienda AppComponentes')
+    description('Job Padre para crear una tarea Hija que despliegue la App Tienda PC Componentes')
 
 
 
@@ -13,7 +13,7 @@ job('Job-pTienda') {
         }
     }
     triggers {
-        scm('H/5 * * * *')
+     //   scm('H/5 * * * *')
         githubPush()
     }
     
