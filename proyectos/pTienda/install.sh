@@ -1,1 +1,1 @@
-echo "Ejecución de la tienda"
+echo "Ejecución de la Tarea Padre tienda"
