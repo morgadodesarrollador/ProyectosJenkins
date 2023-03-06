@@ -15,6 +15,6 @@ job('Job-pTienda') {
     }
     
     steps {
-        shell("cd build; bash levantar.sh")
+        shell("bash parar.sh;  bash levantar.sh")
     }
 }
